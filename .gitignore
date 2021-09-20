@@ -1,7 +1,18 @@
 build/
-imgui.ini
-settings.ini
-.vscode/
-CMakeSettings.json
-out/
+/tags
+/bazel-*
+
+# Directories
 .vs/
+bin/
+bin-int/
+
+# Files
+*.user
+*.log
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+yaml-cpp.vcxproj
+yaml-cpp.vcxproj.filters
